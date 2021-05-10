@@ -3,6 +3,12 @@
 3. git status: kiểm tra status của file
 4. git add . : add all, đưa tất cả các file có sự thay đổi vào vùng staging
     git add [ten_file]: đưa một file có sự thay đôi vào vùng staging
-5. git 
+5. git rm --cached [ten_file] : to unstage, đưa một file từ staging quay ngược lại vùng working directory
+6. git commit -m "content": send a message, đưa các file có sự thay đổi sang vùng local repo(thư mục git)
+7. git config --global user.email "email_name": set email
+8. git config --global user.name "user_name": set name 
+9. git remote add origin "link": tạo đường truyền giữa local và server
+10. git push: đẩy code từ local lên server
+11.
 
 
